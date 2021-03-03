@@ -1,4 +1,12 @@
 <?php
+            //requette de creation de la Base de donnees
+            // CREATE TABLE Client(
+            //     cin varchar(10),
+            //     nom varchar(30),
+            //     prenom varchar(30),
+            //     email varchar(60),
+            //     tel varchar(10)
+            // )
             $servername = 'localhost';
             $username = 'root';
             $password = 'root';
