@@ -1,12 +1,10 @@
 <?php
-            //requette de creation de la Base de donnees
-            // CREATE TABLE Client(
-            //     cin varchar(10),
-            //     nom varchar(30),
-            //     prenom varchar(30),
-            //     email varchar(60),
-            //     tel varchar(10)
-            // )
+            
+
+
+
+            
+            // Ana Ghir bghit nwrik bli hadchi khdam .. don't mind my version
 
 
             $servername = 'localhost';
@@ -21,8 +19,6 @@
                 echo 'Connexion réussie , clients ajoutés avec succes';
             }
             
-            /*On capture les exceptions si une exception est lancée et on affiche
-             *les informations relatives à celle-ci*/
             catch (PDOException $e) {
                 echo "Erreur : " . $e->getMessage();
             }
@@ -41,7 +37,7 @@
        		$sth->bindValue(3,$prenom,PDO::PARAM_STR);
         	$sth->bindValue(4,$email,PDO::PARAM_STR);
         	$sth->bindValue(5,$tel,PDO::PARAM_STR);
-        	$sth->execute();   
+        	$sth->execute(); 
 
 }
 
